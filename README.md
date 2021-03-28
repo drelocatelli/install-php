@@ -1,4 +1,4 @@
-# docker-php
+# install-php
 
 Instale o nginx
 chown [seu_usuario] /usr/share/nginx/html
