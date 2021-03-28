@@ -1,4 +1,5 @@
 # install-php
 
 Instale o nginx
-chown [seu_usuario] /usr/share/nginx/html
+
+chown +R [seu_usuario] /var/www/html
