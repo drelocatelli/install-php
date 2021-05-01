@@ -14,4 +14,6 @@ sudo chmod +777 . -R
 sudo chmod 755 phpmyadmin/ -R
 service mysql stop
 sudo /opt/lampp/lampp start
+sudo /opt/lampp/lampp start
+
 ``` 
