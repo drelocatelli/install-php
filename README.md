@@ -11,4 +11,5 @@ ou
 ```
 sudo apt-get install lamp-server^
 sudo chmod +777 . -R
+sudo chmod 755 phpmyadmin/ -R
 ``` 
