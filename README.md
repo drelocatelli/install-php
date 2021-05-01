@@ -10,5 +10,5 @@ https://www.digitalocean.com/community/tutorials/como-instalar-linux-nginx-mysql
 ou
 ```
 sudo apt-get install lamp-server^
-chmod -R 777 /var/www/html
+sudo chmod +777 . -R
 ``` 
