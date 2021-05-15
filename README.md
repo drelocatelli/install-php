@@ -1,5 +1,7 @@
 # install-php
 
+apt install php-json php-iconv php-phar
+
 Instale o nginx
 
 chown +R [seu_usuario] /var/www/html
