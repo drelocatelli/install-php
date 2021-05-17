@@ -20,6 +20,5 @@ sudo chmod 777 /opt/lampp/htdocs -R
 sudo chmod 755 /opt/lampp/phpmyadmin -R
 service mysql stop
 sudo /opt/lampp/lampp start
-sudo /opt/lampp/lampp start
 
 ``` 
