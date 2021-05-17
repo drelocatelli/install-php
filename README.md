@@ -12,8 +12,8 @@ https://www.digitalocean.com/community/tutorials/como-instalar-linux-nginx-mysql
 ou
 ```
 sudo apt-get install lamp-server^
-sudo chmod 777 . -R
-sudo chmod 755 phpmyadmin/ -R
+sudo chmod 777 /opt/lampp/htdocs -R
+sudo chmod 755 /opt/lampp/phpmyadmin -R
 service mysql stop
 sudo /opt/lampp/lampp start
 sudo /opt/lampp/lampp start
