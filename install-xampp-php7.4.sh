@@ -8,7 +8,6 @@ wget -O xampp.run https://www.apachefriends.org/xampp-files/7.4.19/xampp-linux-x
 elif [ $version -eq "7" ]; then
 wget -O xampp.run https://master.dl.sourceforge.net/project/xampp/XAMPP%20Linux/7.0.9/xampp-linux-x64-7.0.9-2-installer.run?viasf=1
 fi
-
 sudo chmod +x xampp.run
 sudo ./xampp.run
 sudo chmod 777 /opt/lampp/htdocs -R
@@ -18,5 +17,6 @@ service mysql stop
 cd "${HOME}/Área de Trabalho"; cd "${HOME}/desktop"; cd "${HOME}/Desktop"
 file="htdocs"
 echo "[Desktop Entry]\nEncoding=UTF-8\nName=${file}\nType=Application\nExec=nemo '/opt/lampp/htdocs'\nIcon=folder-publicshare" > "${file}.desktop"
+echo && echo && echo && echo && echo -e "==============================\n        INSTALAÇÃO CONCLUIDA!        \n==============================\n"
 # start application
 sudo /opt/lampp/lampp start
