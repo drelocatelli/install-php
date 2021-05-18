@@ -1,4 +1,14 @@
+#!/bin/bash
+echo -n "Qual a versão? [7|7.4]: "
+read version
+if [ $version -eq "7.4" ]
+then
 wget -O xampp.run https://www.apachefriends.org/xampp-files/7.4.19/xampp-linux-x64-7.4.19-0-installer.run
+elif [ $version -eq "7" ]
+then
+wget -O xampp.run https://master.dl.sourceforge.net/project/xampp/XAMPP%20Linux/7.0.9/xampp-linux-x64-7.0.9-2-installer.run?viasf=1
+fi
+
 sudo chmod +x xampp.run
 sudo ./xampp.run
 sudo chmod 777 /opt/lampp/htdocs -R
