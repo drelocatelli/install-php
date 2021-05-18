@@ -1,3 +1,4 @@
+cd /opt/lampp/ && sudo ./uninstall
 sudo apt-get remove --purge php*
 sudo apt-get autoremove
 
