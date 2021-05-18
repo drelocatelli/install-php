@@ -10,6 +10,7 @@ wget -O xampp.run https://master.dl.sourceforge.net/project/xampp/XAMPP%20Linux/
 fi
 sudo chmod +x xampp.run
 sudo ./xampp.run
+find /opt/lampp/htdocs/. \( -type d -exec chmod 755 {} + \) -o \( -type f -exec chmod 644 {} + \)
 sudo chmod 777 /opt/lampp/htdocs -R
 sudo chmod 755 /opt/lampp/phpmyadmin -R
 service mysql stop
