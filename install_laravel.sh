@@ -1,7 +1,7 @@
 bash
 
 # Instala extensoes
-sudo apt install php-json php-iconv php-phar
+sudo apt-get install php-mbstring libnet-libidn-perl php-all-dev php-cgi php-cli php-common php-curl php-dev php-gd php-gmp mcrypt php-mcrypt
 
 # habilita extensões
 file="/opt/lampp/etc/php.ini"; echo -n `sudo sed -i 's/\;extension/extension/g' $file`; echo "todas extensões foram habilitadas de '$file'."
