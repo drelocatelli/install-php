@@ -9,3 +9,6 @@ file="/opt/lampp/etc/php.ini"; echo -n `sudo sed -i 's/\;extension/extension/g' 
 
 # cria o laravel dentro da pasta de projeto
 php -r "readfile('https://getcomposer.org/installer');" | php && clear && php composer.phar create-project --prefer-dist laravel/installer projectName
+
+# starta o servidor
+sudo php artisan serve --port 80
