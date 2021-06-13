@@ -14,3 +14,6 @@ sudo php artisan serve --port 80
 
 # cria db
 sudo php artisan make:model dbName -m
+
+# cria controller
+sudo php artisan make:controller controllName
