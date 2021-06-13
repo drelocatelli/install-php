@@ -11,3 +11,6 @@ php -r "readfile('https://getcomposer.org/installer');" | php && clear && php co
 
 # starta o servidor
 sudo php artisan serve --port 80
+
+# cria db
+sudo php artisan make:model dbName -m
