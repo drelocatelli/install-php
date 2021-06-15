@@ -1,9 +1,9 @@
 #!/bin/bash
-echo -n "Qual a versão? [7|7.4|8]: "
+echo -n "Qual a versão? [7|74|8]: "
 read version
 if [ $version -eq "8" ]; then
 wget -O xampp.run https://ufpr.dl.sourceforge.net/project/xampp/XAMPP%20Linux/8.0.6/xampp-linux-x64-8.0.6-0-installer.run
-elif [ $version -eq "7.4" ]; then
+elif [ $version -eq "74" ]; then
 wget -O xampp.run https://www.apachefriends.org/xampp-files/7.4.19/xampp-linux-x64-7.4.19-0-installer.run
 elif [ $version -eq "7" ]; then
 wget -O xampp.run https://master.dl.sourceforge.net/project/xampp/XAMPP%20Linux/7.0.9/xampp-linux-x64-7.0.9-2-installer.run?viasf=1
